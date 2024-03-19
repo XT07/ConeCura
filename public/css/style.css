@@ -11,6 +11,8 @@ nav {
     top: 0;
     width: 100%;
     position: fixed;
+    text-align: center;
+    padding: 10px;
 }
 h1 {
     margin: 0;
@@ -83,4 +85,94 @@ p {
 }
 .clear {
     clear: both;
+}
+.hist {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9),
+    rgba(0, 0, 0, 0.9)),
+    url(../img/hist.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+.content3 {
+    width: 80vw;
+    height: 50vh;
+    margin: auto;
+    color: white;
+}
+.contact {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9),
+    rgba(0, 0, 0, 0.9)),
+    url(../img/contact.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.content4 {
+    width: 50%;
+    height: 50vh;
+    margin: auto;
+    text-align: center;
+}
+.content3 p {
+    font-size: 20px;
+    text-indent: 15px;
+    text-align: justify;
+}
+@media(max-width: 980px){
+    nav {
+        padding: 50px;
+    }
+    h1 {
+        font-size: 70px;
+    }
+    h2 {
+        font-size: 60px;
+    }
+    .backImg {
+        background-position: center;
+    }
+    .content {
+        width: 90%;
+    }
+    .content p {
+        font-size: 50px;
+    }
+    .aboutConeIndu {
+        background-position: center;
+    }
+    .content2 {
+        width: 100%;
+    }
+    .content2 h2 {
+        width: 90%;
+    }
+    .col {
+        width: 95%;
+        margin: 20px;
+    }
+    .titleDescription {
+        font-size: 40px;
+    }
+    .description {
+        font-size: 15px;
+    }
+    .hist {
+        background-position: center;
+        display: block;
+    }
+    .content3 {
+        width: 90%;
+    }
+    .content3 p {
+        font-size: 38px;
+    }
+    .content4 {
+        width: 90%;
+    }
 }
